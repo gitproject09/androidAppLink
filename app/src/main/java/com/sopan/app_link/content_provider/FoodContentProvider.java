@@ -44,7 +44,7 @@ public class FoodContentProvider extends ContentProvider {
     private static final int RECIPE_INGREDIENTS = 30;
     private static final int RECIPE_INSTRUCTIONS = 40;
 
-    private static final String AUTHORITY = "com.recipe_app";
+    private static final String AUTHORITY = "com.sopan.app_link";
 
     private static final String BASE_PATH = "recipe";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY

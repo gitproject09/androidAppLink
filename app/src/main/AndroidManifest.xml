@@ -27,6 +27,7 @@
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light">
+
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
@@ -36,8 +37,9 @@
                 <data
                     android:scheme="https"
                     android:host="dictatorial-bows.000webhostapp.com"
-                    android:pathPrefix="/jwt_auth" />
+                    android:pathPrefix="/recipe/" />
             </intent-filter>
+
         </activity>
 
         <provider
